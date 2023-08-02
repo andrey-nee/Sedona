@@ -1,0 +1,19 @@
+.main-content {
+}
+
+.main-title {
+}
+
+.main-content__container {
+  text-align: center;
+  padding: 0 15px;
+}
+
+.main-content__subtitle {
+  @extend .title__mobile;
+}
+
+.main-content__description {
+  @extend .paragraph__mobile;
+  line-height: 1.44;
+}

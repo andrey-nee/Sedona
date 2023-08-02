@@ -1,0 +1,35 @@
+.reasons__title {
+}
+
+.reasons__item {
+}
+
+.reasons__container {
+  text-align: center;
+  background-color: $blue;
+  color: $white;
+  padding: 0 15px
+}
+
+.reasons__subtitle {
+  @extend .title__mobile;
+}
+
+.reasons__number {
+  @extend .paragraph__mobile;
+}
+
+.reasons__description {
+  @extend .paragraph__mobile;
+}
+
+.reasons__image {
+}
+
+.reasons__tips {
+}
+
+.reasons__theme_grey {
+  background-color: $gray;
+  color: $black;
+}

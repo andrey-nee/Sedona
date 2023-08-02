@@ -1,0 +1,19 @@
+.tips {
+  padding: 0 15px;
+}
+
+.tips__list {
+  list-style: none;
+  padding: 0;
+}
+
+.tips__item {
+}
+
+.tips__subtitle {
+  @extend .title__mobile;
+}
+
+.tips__description {
+  @extend .paragraph__mobile;
+}
