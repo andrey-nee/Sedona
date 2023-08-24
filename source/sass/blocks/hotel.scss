@@ -3,22 +3,27 @@
   text-align: center;
 }
 
-.hotel__title {
-}
+// .hotel__title {
+// }
 
-.visually-hidden {
-}
+// .visually-hidden {
+// }
 
 .hotel__subtitle {
-  @extend .title__mobile;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 21px;
+  font-style: normal;
+  font-weight: 700;
   line-height: 1.23;
 }
 
 .hotel__description {
-  @extend .paragraph__mobile;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
   line-height: 1.71;
 }
 
-.hotel__button {
-}
+// .hotel__button {
+// }

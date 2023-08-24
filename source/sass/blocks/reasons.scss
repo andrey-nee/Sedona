@@ -1,33 +1,38 @@
-.reasons__title {
-}
+// .reasons__title {
+// }
 
-.reasons__item {
-}
+// .reasons__item {
+// }
 
 .reasons__container {
   text-align: center;
   background-color: $blue;
   color: $white;
-  padding: 0 15px
+  padding: 0 15px;
 }
 
 .reasons__subtitle {
-  @extend .title__mobile;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.44;
 }
 
-.reasons__number {
-  @extend .paragraph__mobile;
-}
-
+.reasons__number,
 .reasons__description {
-  @extend .paragraph__mobile;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
-.reasons__image {
-}
+// .reasons__image {
+// }
 
-.reasons__tips {
-}
+// .reasons__tips {
+// }
 
 .reasons__theme_grey {
   background-color: $gray;
