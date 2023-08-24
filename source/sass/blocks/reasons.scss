@@ -1,0 +1,40 @@
+// .reasons__title {
+// }
+
+// .reasons__item {
+// }
+
+.reasons__container {
+  text-align: center;
+  background-color: $blue;
+  color: $white;
+  padding: 0 15px;
+}
+
+.reasons__subtitle {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.44;
+}
+
+.reasons__number,
+.reasons__description {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+// .reasons__image {
+// }
+
+// .reasons__tips {
+// }
+
+.reasons__theme_grey {
+  background-color: $gray;
+  color: $black;
+}
